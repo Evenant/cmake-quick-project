@@ -3,7 +3,6 @@
 # directory as this python script.
 # Example usage: `project newb -n binary_app`
 import toml
-import re
 import sys
 import os
 from genericpath import isdir, isfile
@@ -208,7 +207,6 @@ target_include_directories(${'{PROJECT_DIR}'} PUBLIC
 	def __init__(self) -> None:
 		pass
 
-class bundler
 config = toml.loads(open("project.toml").read())
 
 if __name__ == "__main__":
@@ -230,7 +228,7 @@ if __name__ == "__main__":
 				subcommand = SUBC_DOC
 			elif argument == "cmake":
 				subcommand = SUBC_CMAKE
-			elif argument == "bundle":
+			elif argument == "bundle": # No bundling feature available yet, coming soon
 				subcommand = SUBC_BUNDLE
 		#SECTION Doc Subcommand
 		elif subcommand == SUBC_DOC:
