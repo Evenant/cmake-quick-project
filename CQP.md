@@ -33,11 +33,7 @@ Obviously
 By default, CMake 3.23 is used.
 
 ## Quick Start
-Quickly create a new project with the following.
-You will need to install Git.
-```
-git clone -- https://github.com/scongebop/cmake-quick-project.git <NAME>
-```
+Quickly create a new project by installing the [Source Code](https://github.com/scongebop/cmake-quick-project/releases/tag/stable-v1.0) and using the CLI as normal
 
 Replace `<NAME>` with what you want to name you project
 
