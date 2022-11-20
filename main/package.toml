@@ -1,0 +1,22 @@
+# meant for `.c` or `.cpp` files
+source_files = [
+	"src/main.c"
+]
+
+# meant for `.h` for `.hpp` files
+include_files = [
+	"include/somedep.h"
+]
+
+# Libraries from subdiretories or even the same CMakeLists.txt
+link_libraries = [
+	
+]
+# Can be set to "binary" or "library"
+package_type = "binary" 
+
+# Relative path to subdirectories
+# Like `../somelib` or `sublib`
+subdirectories = [
+
+]
