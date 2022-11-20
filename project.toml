@@ -1,5 +1,4 @@
 [cmake_config]
-vers = "3.23"
 generator = "Unix Makefiles"
 cpp_compiler = "g++"
 c_compiler = "gcc"
